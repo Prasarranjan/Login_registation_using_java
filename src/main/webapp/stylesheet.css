@@ -1,0 +1,38 @@
+body{
+    align-items: center;
+    background-color: yellow ;
+    text-align: center;
+    font-family: sans-serif;
+    justify-content: center;
+    height: 100vh;
+    background-image:url('back3.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    color: red;
+}
+.container{
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,1,0.5);
+    background-color: white;
+    text-align: center;
+}
+h1{
+    font-weight: bold;
+    color: aqua;
+}
+.links a{
+    margin: 0 10px;
+    text-decoration:none ;
+    color: blue;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.links a:hover{
+    color: blue;
+    font-size: 20px;
+    text-transform: uppercase;
+}
